@@ -1,0 +1,103 @@
+.bloco-tabela {
+    width: 700px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloco-cria-contato {
+    width: 700px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloco-cria-contato>img {
+    width: 60px;
+}
+
+.bloco-cria-contato>h1 {
+    color: #9912D9;
+    font-size: 18px;
+}
+.bloco-cria-contato>form{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloco-cria-contato>form>input{
+    width: 35%;
+    height:35px;
+    background: #DDDDDD;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    padding-left:11px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 300;
+}
+
+.tabela-dados {
+    width: 90%;
+    margin: 25px;
+}
+
+th {
+    border-bottom: 1px solid #9912D9;
+    height: 30px;
+    color: #9912D9;
+}
+
+td {
+    border-bottom: 1px solid grey;
+    height: 30px;
+    color: rgb(162, 161, 161);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.editar {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: rgba(255, 200, 3, 0.85);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.apagar {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: rgba(253, 3, 3, 0.85);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.salvar{
+    width: 70px;
+    height:35px;
+    border: none;
+    background: #9912D9;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 7px;
+}

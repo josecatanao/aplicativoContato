@@ -1,0 +1,61 @@
+#bloco-form-validar {
+    width: 450px;
+    height: 300px;
+    border-radius: 22px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+#bloco-form-validar>img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+#bloco-form-validar>form {
+    width: 270px;
+    display: grid;
+}
+
+#bloco-form-validar>form>button {
+    background: #9912D9;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 1px solid #9912D9;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#bloco-form-validar>form>button:hover {
+    background: #a45dc5;
+}
+
+#bloco-form-validar>form>label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #9912D9;
+}
+
+#bloco-form-validar>form>input {
+    height: 35px;
+    background: #DDDDDD;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    padding-left: 11px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#bloco-form-validar>form>span{
+    font-size: 12px;
+    font-weight: 300;
+}

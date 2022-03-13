@@ -1,0 +1,58 @@
+#bloco-form-cadastro{
+    width: 321px;
+    height: 400px;
+    border-radius: 22px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bloco-form-cadastro>img{
+  width: 60px;
+  margin-bottom: 10px;   
+}
+#bloco-form-cadastro>form{
+    width: 270px;
+    display: grid;
+}
+#bloco-form-cadastro>form>button{
+    background: #9912D9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #9912D9 ;
+    height:35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+#bloco-form-cadastro>form>button:hover{
+    background: #a45dc5 ;
+}
+#bloco-form-cadastro>form>a{
+    text-align: center;
+    font-size: 12px;
+   
+    color: #9912D9;
+    font-weight: bold;
+}
+#bloco-form-cadastro>form>label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #9912D9;
+}
+#bloco-form-cadastro>form>input{
+    height:35px;
+    background: #DDDDDD;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    padding-left:11px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
